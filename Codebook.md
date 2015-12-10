@@ -25,6 +25,9 @@ corresponds to an electric water-heater and an air-conditio.</li>
 </ol>
 ###The Raw Dataset
 
-<p>The dataset has 2,075,259 rows and 9 columns</p>
-<p>For the project the data used lies between the following dates 02/01/2007 and 
-02/02.2007</p>
+<p> The data set is found under:
+https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+It has 2,075,259 rows and 9 columns</p>
+
+<p>For the project, the data used lies between the following dates 02/01/2007 and 
+02/02/2007</p>
