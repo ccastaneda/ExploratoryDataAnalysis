@@ -38,12 +38,12 @@ the entire year. Here are the first few rows.
 * `Emissions`: Amount of PM2.5 emitted, in tons
 * `type`: The type of source (point, non-point, on-road, or non-road)
 * `year`: The year of emissions recorded
-````
+
 Source Classification Code Table (Source_Classification_Code.rds):
 This table provides a mapping from the SCC digit strings in the Emissions table to the actual 
 name of the PM2.5 source. The sources are categorized in a few different ways from more general 
 to more specific and you may choose to explore whatever categories you think are most useful. 
-For example, source ì10100101î is known as ìExt Comb /Electric Gen /Anthracite Coal /Pulverized Coalî.
+For example, source ‚Äú10100101‚Äù is known as ‚ÄúExt Comb /Electric Gen /Anthracite Coal /Pulverized Coal‚Äù.
 
 You can read each of the two files using the readRDS() function in R. For example, reading in 
 each file can be done with the following code:
@@ -60,7 +60,7 @@ see if those files are in the listing).
 
 The overall goal of this assignment is to explore the National Emissions Inventory database 
 and see what it say about fine particulate matter pollution in the United states over the 10-year 
-period 1999ñ2008. You may use any R package you want to support your analysis.
+period 1999‚Äì2008. You may use any R package you want to support your analysis.
 
 ###Questions
 
@@ -76,14 +76,14 @@ plotting system, make a plot showing the total PM2.5 emission from all sources f
 1999 to 2008? Use the base plotting system to make a plot answering this question.
 
 * Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, 
-which of these four sources have seen decreases in emissions from 1999ñ2008 for Baltimore City? 
-Which have seen increases in emissions from 1999ñ2008? Use the ggplot2 plotting system to make a plot 
+which of these four sources have seen decreases in emissions from 1999‚Äì2008 for Baltimore City? 
+Which have seen increases in emissions from 1999‚Äì2008? Use the ggplot2 plotting system to make a plot 
 answer this question.
 
 * Across the United States, how have emissions from coal combustion-related sources changed 
-from 1999ñ2008?
+from 1999‚Äì2008?
 
-* How have emissions from motor vehicle sources changed from 1999ñ2008 in Baltimore City?
+* How have emissions from motor vehicle sources changed from 1999‚Äì2008 in Baltimore City?
 
 * Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle 
 sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes 
